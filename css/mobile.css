@@ -1,0 +1,70 @@
+@media screen and (max-width:1200px){
+    .navigation{
+        flex-direction:column;
+        margin-bottom: 50px;
+    }
+
+    .nav-left{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .home-article{
+        flex-direction: column;
+    }
+
+    .home-article-img{
+       text-align: center;
+    }
+
+    /* .year-box{
+       top: 25px;
+       left: 60vw;
+       font-size: 12px;
+       display: flex;
+    } */
+
+    .form-input{
+        width: 48%;
+    }
+
+    .contact-form{
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .form-box input,textarea{
+       width: 35vh;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .social{
+        padding: 0;
+    }
+
+    .post-img{
+        height:auto;
+    }
+
+    .about-content{
+        height: 900px;
+        width: 100%;
+    }
+
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 12px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
